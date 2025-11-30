@@ -23,8 +23,8 @@ const Navbar = () => {
       path: "/about",
     },
     {
-      route: "Category",
-      path: "/category",
+      route: "Categories",
+      path: "/categories",
     },
     {
       route: "Contact",

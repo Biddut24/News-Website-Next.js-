@@ -28,7 +28,12 @@ const latestNews = async () => {
         {data.slice(1, 5).map((news) => (
           <div key={news._id} className="card bg-base-100 w-96 shadow-sm">
             <figure>
-              <Image src={data[0].image_url} width={600} height={600} alt="image"/>
+              <Image
+                src={data[0].image_url}
+                width={500}
+                height={500}
+                alt="image"
+              />
             </figure>
 
             <div className="card-body">

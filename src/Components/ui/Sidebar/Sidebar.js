@@ -24,7 +24,7 @@ const Sidebar = async () => {
        
       </div>
 
-      <div className="grid grid-cols-1 gap-4 my-5">
+      <div className="grid grid-cols-1 gap-4 my-4">
         {data.slice(6, 11).map((news) => (
           <div key={news._id} className=" flex items-center my-4 shadow-lg p-4">
             <figure>
